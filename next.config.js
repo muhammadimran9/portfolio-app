@@ -8,6 +8,8 @@ const nextConfig = {
       { protocol: 'https', hostname: 'lh3.googleusercontent.com', pathname: '/**' },
       { protocol: 'https', hostname: 'avatars.githubusercontent.com', pathname: '/**' },
       { protocol: 'https', hostname: 'blogstech.site', pathname: '/**' },
+      { protocol: 'https', hostname: 'udemy-certificate.s3.amazonaws.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'ik.imagekit.io', pathname: '/**' },
     ],
   },
   env: {

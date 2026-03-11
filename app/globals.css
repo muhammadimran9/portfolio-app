@@ -55,3 +55,108 @@ body {
     transform: translateX(0);
   }
 }
+
+/* Brand and utility classes */
+.brand-bg {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.force-ltr {
+  direction: ltr;
+}
+
+.arabic-rtl {
+  direction: ltr;
+}
+
+.arabic-text-rtl {
+  direction: ltr;
+}
+
+.arabic-semibold {
+  font-weight: 600;
+}
+
+.arabic-text-xs {
+  font-size: 0.875rem;
+}
+
+.arabic-text-sm {
+  font-size: 0.875rem;
+}
+
+.arabic-text-lg {
+  font-size: 1.125rem;
+}
+
+.arabic-text-xl {
+  font-size: 1.25rem;
+}
+
+.arabic-bold {
+  font-weight: 700;
+}
+
+.arabic-text-base {
+  font-size: 1rem;
+}
+
+.arabic-align {
+  text-align: left;
+}
+
+/* Scrollbar styles */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* 3D Transform utilities */
+.perspective-\[24em\] {
+  perspective: 24em;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+/* Animation utilities */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aos-init {
+  opacity: 0;
+}
+
+.aos-animate {
+  animation: fadeUp 0.6s ease forwards;
+}
